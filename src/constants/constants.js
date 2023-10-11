@@ -1,12 +1,21 @@
 export const projects = [
   {
+    title: 'Price Checker',
+    description: "Using Next.js, TypeScript, MongoDB and 3rd party APIs I created an application that alows users discover the best price for an Amazon product based on the Amazon URL",
+      image: '/images/PriceChecker.jpg',
+      tags: ['Next.js', 'TypeScript','MongoDB','APIs'],
+    source: 'https://github.com/KangLin104/PriceChecker',
+    visit: 'https://price-checker-amber.vercel.app/',
+    id: 0,
+  },
+  {
     title: 'CoinFinder',
     description: "Using React.js. Redux and 3rd party APIs I was able to create a web applciation that allows users to search up cyrto Currencey that is in our worl today and details regarding each crypto currency.",
       image: '/images/CoinFinder.jpg',
       tags: ['React', 'Redux', 'APIs'],
     source: 'https://github.com/KangLin104/CoinFinder',
     visit: 'https://coinfinder3.netlify.app/',
-    id: 0,
+    id: 1,
   },
   {
     title: 'Get It',
@@ -15,7 +24,7 @@ export const projects = [
       tags: ['PostGreSQL', 'Express', 'React', 'Node'],
     source: 'https://github.com/WENKAITAN/GET_IT',
     visit: 'https://get-it-ecommerce.netlify.app/',
-    id: 1,
+    id: 2,
   },
   {
     title: 'Ascend Baruch',
@@ -24,7 +33,7 @@ export const projects = [
       tags: ['WordPress', 'Figma'],
     source: 'https://ascendbaruch.org/',
     visit: 'https://ascendbaruch.org/',
-    id: 2,
+    id: 3,
   },
   {
     title: 'Chatme5',
@@ -33,7 +42,7 @@ export const projects = [
     tags: ['React', 'ChatEngine', 'Firebase'],
     source: 'https://github.com/KangLin104/react-chat-app',
     visit: 'https://chatme5.netlify.app/',
-    id: 3,
+    id: 4,
   },
   
 ];
